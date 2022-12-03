@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@worksurface/worksurface/work-surface-main": [
+        "libs/worksurface/work-surface-main/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

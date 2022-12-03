@@ -1,12 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import {WorkSurfaceMain} from "@worksurface/worksurface/work-surface-main";
 
 export function App() {
   return (
     <>
-      <NxWelcome title="worksurface" />
-      <div />
+      <WorkSurfaceMain></WorkSurfaceMain>
     </>
   );
 }
