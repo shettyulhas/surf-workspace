@@ -9,14 +9,19 @@
   },
   "private": true,
   "dependencies": {
-    "core-js": "^3.6.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "regenerator-runtime": "0.13.7",
-    "tslib": "^2.3.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.10.16"
+    "@mui/material": "^5.10.16",
+    "axios": "^1.2.0",
+    "core-js": "^3.6.5",
+    "leaflet": "^1.9.3",
+    "polygon": "^1.0.2",
+    "polygon-tools": "^0.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.0",
+    "regenerator-runtime": "0.13.7",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@nrwl/cli": "15.2.4",
@@ -32,6 +37,7 @@
     "@types/node": "18.7.18",
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
+    "@types/react-leaflet": "^2.8.2",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "babel-jest": "28.1.1",

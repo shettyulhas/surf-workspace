@@ -1,0 +1,10 @@
+#map-id {
+  width: 50ch;
+  height: 50ch;
+  margin: 30ch;
+  padding:30ch;
+}
+
+#map-canvas {
+  position: relative;
+}
